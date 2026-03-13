@@ -1,4 +1,3 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Delete resource &apos;Java_Jenkhins&apos;" deleteContents="false" description="Delete resource &apos;Java_Jenkhins&apos;" element1="/Java_Jenkhins" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1773052586493"/>
+<session version="1.0">&#x0A;<refactoring comment="Delete resource &apos;Java_Jenkhins&apos;" deleteContents="false" description="Delete resource &apos;Java_Jenkhins&apos;" element1="/Java_Jenkhins" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1773052586493"/>&#x0A;<refactoring comment="Delete resource &apos;kiot2026&apos;" deleteContents="false" description="Delete resource &apos;kiot2026&apos;" element1="/kiot2026" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1773133551800"/>
 </session>
