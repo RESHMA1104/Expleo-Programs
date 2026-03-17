@@ -1,7 +1,6 @@
 package JavaCore;
 import java.util.*;
 public class TreeMapExample {
-
 	public static void main(String[] args) {
 		TreeMap<String,Double> tm=new TreeMap<>();
 		System.out.println("Size of the HashMap: "+tm.size());
@@ -16,8 +15,5 @@ public class TreeMapExample {
 			System.out.print(me.getKey()+":");
 			System.out.println(me.getValue());
 		}
-		
-		
 	}
-
 }

@@ -90,3 +90,5 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact com.google.gu
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 2026-03-12 12:49:25,821 [Worker-29: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.expleo:kiot2026:0.0.1-SNAPSHOT @ D:\Expleo Program\kiot2026\pom.xml.
 2026-03-12 12:51:42,936 [Worker-7: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2026-03-17 10:22:55,209 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2026-03-17 10:22:56,485 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Updating Gradle version information cache failed. Using outdated cache.
