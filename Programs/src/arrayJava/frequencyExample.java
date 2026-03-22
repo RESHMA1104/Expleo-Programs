@@ -1,12 +1,21 @@
 package arrayJava;
+import java.util.Scanner;
 
 public class frequencyExample {
     public static void main(String[] args) {
 
-        int[] arr = {1, 2, 2, 3, 1, 4, 2};
+        Scanner sc = new Scanner(System.in);
 
-        int n = arr.length;
-        boolean[] visited = new boolean[n];
+        System.out.print("Enter array size: ");
+        int n = sc.nextInt();
+
+        int[] arr = new int[n];
+        boolean[] visited = new boolean[n]; // to track counted elements
+
+        System.out.println("Enter elements:");
+        for(int i = 0; i < n; i++) {
+            arr[i] = sc.nextInt();
+        }
 
         for(int i = 0; i < n; i++) {
 
@@ -24,5 +33,7 @@ public class frequencyExample {
 
             System.out.println(arr[i] + " occurs " + count + " times");
         }
+
+        sc.close();
     }
 }
