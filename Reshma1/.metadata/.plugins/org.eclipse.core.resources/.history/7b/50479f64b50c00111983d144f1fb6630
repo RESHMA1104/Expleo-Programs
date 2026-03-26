@@ -1,0 +1,17 @@
+package javaProblem;
+import java.util.*;
+public class Problem4 {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int first = sc.nextInt();
+		int last = sc.nextInt();
+		for(int i=first; i<=last; i++) {
+			if(i%5 == 0 || i%5 == 5) {
+				System.out.println(i +"ding");
+			}
+			else if(i%10 == 0) {
+				System.out.println(i +"dong");
+			}
+		}
+	}
+}

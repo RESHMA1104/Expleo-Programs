@@ -1,0 +1,31 @@
+package javaProblem;
+import java.util.*;
+public class Problem1 {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("No of Participants: ");
+		int n = sc.nextInt();
+		System.out.println("Total Number for 10 participants: ");
+		int[] arr = new int[n];
+		for(int i=0; i<n; i++) {
+			arr[i] = sc.nextInt();
+		}
+		int sum = 0;
+		for(int i=1;i<n; i++) {
+			while(arr[i] > 0) {
+				int a = arr[i] % 10;
+				sum += a;
+				arr[i]/=10;
+			}
+			if(sum == 7) {
+				System.out.println("First Prize is to token: "+num);
+			}
+			else if(sum == 5) {
+				System.out.println("Second Prize is to token: "+num);
+			}
+			else if(sum == 3) {
+				System.out.println("Third Prize is to token: "+num);
+			}
+		}
+	}
+}
