@@ -56,7 +56,6 @@ class TransactionValidator {
 }
 public class Question3 {
     public static void main(String[] args) throws BankTransactionException {
-        // Test Case 1: Invalid Account
         try {
             TransactionValidator.validateTransaction("", 1000, 500, 2000);
         } catch (InvalidAccountException e) {
@@ -71,7 +70,6 @@ public class Question3 {
         } finally {
             System.out.println("Validation complete.\n");
         }
-        // Test Case 2: Insufficient Funds
         try {
             TransactionValidator.validateTransaction("ACC001", 200, 500, 2000);
         } catch (InvalidAccountException e) {
@@ -86,8 +84,6 @@ public class Question3 {
         } finally {
             System.out.println("Validation complete.\n");
         }
-
-        // Test Case 3: Transaction Limit Exceeded
         try {
             TransactionValidator.validateTransaction("ACC002", 5000, 3000, 2000);
         } catch (InvalidAccountException e) {

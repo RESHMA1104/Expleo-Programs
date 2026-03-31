@@ -5,7 +5,7 @@ import java.sql.PreparedStatement;
 import java.sql.SQLException;
 
 public class jdbc2{
-    public static void main(String[] args) {
+    public static void update(String uname, String ucourse, String uemail) {
 
         String dbURL = "jdbc:mysql://localhost:3306/testdb";
         String user = "root";

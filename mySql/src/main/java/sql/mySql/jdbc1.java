@@ -7,7 +7,7 @@ import java.sql.SQLException;
 
 public class jdbc1 {
 
-	public static void main(String[] args)
+	public static void display()
 	{
 		
 		String dbURL = "jdbc:mysql://localhost:3306/testdb";
@@ -25,16 +25,15 @@ public class jdbc1 {
 				String name=rs.getString("Name");
 				String course=rs.getString("Course");
 				String email=rs.getString("email");
-				
-				
 				System.out.println("Table created successfully using prepared statement");
 			}
 		}
-			
 			catch (SQLException ex) 
 			{
 				ex.printStackTrace();
 			}
 			
 		}
+
+	
 	}
